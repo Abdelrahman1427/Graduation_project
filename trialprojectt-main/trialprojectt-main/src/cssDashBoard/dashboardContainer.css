@@ -1,0 +1,10 @@
+.body-of-dashBoard{
+    padding-left: clamp(100px, 15%, 400px);
+}
+@media (max-width: 1230px)
+{
+    .body-of-dashBoard{
+        padding-left: clamp(100px, 10%, 400px);
+    }
+}
+

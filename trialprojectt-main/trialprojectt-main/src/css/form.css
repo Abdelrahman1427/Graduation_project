@@ -1,0 +1,427 @@
+.titleSection{
+    height: 25vh;
+    background-image: url(../imgs/Untitled.png);
+    clip-path: polygon(0% 100%, 100% 60%, 100% 0%, 0% 0%);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.titleSection h{
+    margin-bottom: 3%;
+    font-size: 30pt;
+    font-weight:bold;
+}
+.formSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.inputFlex{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.txtStyle{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20%;
+    height:40px;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.txtStyle:hover, .txtAStyle:hover, .txtStyle:focus, .txtAStyle:focus{
+    border-color: #275efe;
+}
+.label-of-form{
+   margin-right:1rem;
+   margin-bottom:1rem;
+   display: inline-block;
+   width: 200px;
+   text-align: right;
+}
+.lblTXTa{
+    vertical-align: top;
+    margin-top: 1%;
+}
+.txtAStyle{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20%;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    resize:vertical;
+    max-height: 150px;
+    min-height: 40px;
+}
+.btnSrch{
+    width:30%;
+}
+
+.midForm
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btnBarSoghyr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+/* ********************************************************************* */
+.twolbl{
+    margin-bottom: 1rem;
+    width:100%;
+}
+.twolblN{
+    margin-bottom: 6rem;
+    width:100%;
+}
+.TwoColForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.btnBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSrchA{
+    color: var(--white);
+    background-color: var(--kohli);
+    border: 0;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 8%;
+    margin-left: 2%;
+}
+.btnSrchA:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.txtStyleTWO{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 300%;
+    height:40px;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 2%;
+}
+
+.txtAStyleTwo{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 270%;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    resize:vertical;
+    max-height: 150px;
+    min-height: 110px;
+}
+
+.txtStyleTWO:hover, .txtAStyleTwo:hover, .txtStyleTWO:focus, .txtAStyleTwo:focus{
+    border-color: #275efe;
+}
+.leftSide{
+    float: left;
+    margin-left: 0;
+    margin-right: 20%;
+
+}
+.rightSide{
+float: right;
+margin-bottom: 1.5%;
+}
+/* ********************************************************************* */
+@media (max-width:1280px) {
+    .btnSrch{
+        width:80%;
+    }
+    .btnBarSoghyr{
+        margin-left: 8%;
+    }
+    .titleSection h{
+        font-size: 25pt;
+    }
+    .txtStyle{
+        width: 40%;
+    }
+    .txtAStyle{
+        width: 40%;
+    }
+}
+
+@media (max-width:1024px) {
+   .label-of-form{
+    font-size: 15pt;
+   }
+    .btnSrch{
+        width:30%;
+    }
+    .titleSection h{
+        font-size: 25pt;
+    }
+    .btnBarSoghyr{
+        margin-left: 15%;
+    }
+    .txtStyle{
+        width: 60%;
+        font-size: 10pt;
+    }
+    .txtAStyle{
+        width: 60%;
+    }
+}
+@media (max-width:950px){
+    .btnSrch{
+        width:50%;
+    }
+}
+
+@media (max-width:912px) {
+    .formSection{
+        margin-top: 10%;
+    }
+    .label-of-form{
+        font-size: 10pt;
+    }
+    .titleSection h{
+        font-size: 40pt;
+    }
+}
+@media (max-width:845px) {
+    .btnSrchA{
+        width:10%;
+    }
+}
+@media (max-width:660px) {
+    .btnSrchA{
+        width:12%;
+    }
+}
+@media (max-width:565px){
+    .btnSrch{
+        width:60%;
+    }
+    .titleSection{
+        clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+        height: 20vh;
+    }
+    .titleSection h{
+        font-size: 25pt;
+    }
+}
+@media(max-width:475px){
+    .btnSrch{
+        width:65%;
+    }
+}
+@media(max-width:420px){
+    .btnSrch{
+        width:70%;
+    }
+}
+@media (max-width:414px){
+    .txtStyle{
+        width: 80%;
+        font-size: 10pt;
+    }
+    .txtAStyle{
+        width: 80%;
+    }
+    .formSection{
+        margin-top: 30%;
+    }
+    .label-of-form{
+        font-size: 10pt;
+    }
+    .titleSection h{
+        font-size: 30pt;
+    }
+    .titleSection{
+        clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+        height: 20vh;
+    }
+}
+@media (max-width:405px) {
+    .btnSrch{
+        width:80%;
+    }
+
+}
+@media (max-width: 375px){
+
+    .label-of-form{
+        font-size: 10pt;
+    }
+    .titleSection h{
+        font-size: 20pt;
+    }
+    .titleSection{
+        height: 20vh;
+    }
+    .btnSrch{
+        width:90%;
+    }
+    .btnBarSoghyr{
+        margin-left: -1%;
+    }
+}
+@media (max-width: 300px){
+    .btnBarSoghyr{
+        margin-left: -2%;
+    }
+    .btnSrch{
+        width:100%;
+    }
+}
+@media(max-width:280px){
+    .txtStyle{
+        width: 100%;
+    }
+    .txtAStyle{
+        width: 100%;
+    }
+    .label-of-form{
+        font-size: 8pt;
+    }
+    .titleSection h{
+        font-size: 15pt;
+    }
+    .btnSrch{
+    font-size: 10pt;
+}
+.btnBarSoghyr{
+    margin-left: 0%;
+}
+}
+
+@media(max-width:1024px){
+    .label-of-form{
+        font-size: 10pt;
+    }
+    .txtAStyleTwo{
+        width:300%;
+    }
+    .btnBar{
+        margin-top: -3%;
+    }
+}
+@media (max-width:768px){
+    .leftSide{
+    margin-right: 12%;
+    }
+}
+@media (max-width:550px){
+    .btnSrchA{
+        width:15%;
+    }
+}
+@media (max-width:540px){
+    .label-of-form{
+        font-size: 8pt;
+    }
+    .btnBar{
+        margin-top: 3%;
+    }
+    .btnSrchA{
+        width: 20%;
+    }
+    .leftSide{
+        margin-right: 10%;
+    }
+    .rightSide{
+        margin-right: 2%;
+    }
+    .txtStyleTWO{
+            width:200%;
+    }
+    .txtAStyleTwo{
+            width:205%;
+    }
+
+}
+@media (max-width:414px) {
+    .TwoColForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .leftSide{
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:393px){
+    .titleSection{
+        clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%);
+        height: 15vh;
+    }
+}

@@ -1,0 +1,325 @@
+.dashContainer
+{
+width: clamp(100px, 15%, 400px);
+min-height: 100vh;
+background-color: var(--dashboardmenu);
+position: fixed;
+left: 0;
+top: 0;
+z-index: 999;
+border-right: 1px solid var(--dashboardline);
+}
+.titleDash
+{
+height: 10vh;
+width: 100%;
+padding: 2%;
+display: flex;
+justify-content: flex-start;
+font-size: 24px;
+
+}
+.linksMenu {
+  text-decoration: none;
+}
+.LogoDashImg
+{
+width: 30%;
+}
+.wh-dash-Menu-elem-span{
+  margin-top: 20%;
+  height:300px;
+}
+.dashmenu-title-sec{
+  display: flex;
+  margin-left: 5%;
+  font-size: 20px;
+  margin-bottom: 15%;
+}
+
+.Dash-Menu-links{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  align-items: baseline;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+.dash-menu-elements{
+  height: 50px;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: baseline;
+  align-items:center;
+  width:90%;
+  border-radius: 5px;
+  color:var(--dashboardlinkunselected);
+}
+.linksMenu {
+  color: var(--dashboardlinkunselected);
+  text-decoration: none;
+}
+
+.dash-menu-elements:hover .linksMenu,
+.dash-menu-elements:focus .linksMenu {
+  color: var(--dashboardlinkhovered);
+}
+
+.dash-menu-elements:hover,
+.dash-menu-elements:focus {
+  cursor: pointer;
+  color: var(--dashboardlinkhovered);
+}
+
+.dash-menu-elements:hover > .dash-elem-iconA,
+.dash-menu-elements:focus > .dash-elem-iconA {
+  filter: grayscale(0%);
+}
+
+.dash-elem-iconA{
+width:30px;
+height:30px;
+margin-right: 20%;
+margin-left: 10%;
+}
+
+.dash-elem-iconA{
+    margin-bottom: 1.5%;
+    filter: grayscale(100%);
+}
+.weather-sora{
+  margin-left:10%;
+  margin-right:26%;
+}
+.logs-sora{
+  margin-left:10%;
+  margin-right:40%;
+}
+.user-card-kamel{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50%;
+
+}
+.dash-user-Icon{
+  width:80px;
+  height:80px;
+}
+.account-text{
+  height:40px;
+  width:80%;
+  border:none;
+  text-align: center;
+  font-weight: 500;
+  background: none;
+}
+.account-text:hover, .account-text:focus{
+  outline: none;
+}
+.logout-Icon{
+  width:25px;
+  height:25px;
+  filter: grayscale(100%);
+}
+.logout-icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F0F0F0;
+  border-radius: 10px;
+  width:50px;
+  height:50px;
+
+}
+.logout-icon-container:hover{
+  cursor:pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.logout-icon-container:hover> .logout-Icon{
+  filter: grayscale(0%);
+}
+.welcome-dashboard{
+ display: none; 
+}
+
+@media screen and (max-width: 1450px) {
+    .dashContainer {
+   min-height: 170vh;
+    }
+
+  }
+@media (max-width: 1230px)
+{
+    .dashContainer{
+      width: clamp(100px, 10%, 400px);
+    }
+    .menu-text{
+      display: none;
+    }
+    .menu-dash-title{
+      display: none;
+    }
+    .LogoDashImg{
+    width: 90%;
+    }
+    .dash-elem-iconA{
+      width:40px;
+      height:40px;
+      margin-left:70%;
+      margin-top:80%;
+    }
+}
+
+@media screen and (max-width: 773px) {
+    .dashContainer {
+  min-height: 190vh;
+    }
+
+  }
+  @media only screen and (max-width: 1024px) and (max-height: 600px){
+    .menu-text{
+      display: none;
+    }
+    .menu-dash-title{
+      display: none;
+    }
+    .LogoDashImg{
+    width: 90%;
+    }
+    .dash-elem-iconA{
+      width:30px;
+      height:30px;
+      margin-left:80%;
+      margin-top:80%;
+    }
+    .user-card-kamel{
+      margin-top:0%;
+    }
+}
+@media only screen and (max-width: 912px) and (max-height: 1368px){
+  .user-card-kamel{
+    margin-top:400%;
+  }
+  .dash-elem-iconA{
+    margin-left:50%;
+  }
+  .LogoDashImg{
+    width: 100%;
+    }
+}
+@media only screen and (max-width: 540px) and (max-height: 720px){
+  .user-card-kamel{
+    margin-top:40%;
+  }
+  .dash-elem-iconA{
+    margin-left:50%;
+  }
+  .LogoDashImg{
+    width: 100%;
+    }
+}
+
+.menuicon-dashresponsive{
+  width:40px;
+  height:40px;
+}
+.checkbox-menu{
+  float: left;
+  cursor: pointer;
+  display: none;
+}
+
+.checkboxxx{
+  display: none;
+}
+@media (max-width: 414px) {
+.Dash-Menu-links{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height:80px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: var(--dashboardmenu);
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -0.1%;
+}
+.dash-menu-elements{
+  display: flex;
+  flex-direction: column;
+}
+.dash-menu-elements p{
+  display: block;
+}
+.dash-elem-iconA{
+margin:0;
+}
+.dashContainer{
+  width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-of-dashBoard{
+  padding-left:0px;
+}
+.body-of-dashBoard{
+  padding-top: 70px;
+  padding-left: 0%;
+  margin-left: -100px;
+  padding-bottom: 60px;
+}
+.user-card-kamel{
+  position: fixed;
+  top: 0;
+  width: 110%;
+  height:80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  background-color: var(--dashboardmenu);
+  margin-left: 90%;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+.dash-user-Icon{
+  display: none;
+}
+.logout-icon-container{
+  margin-right: 5%;
+}
+.role-acc{
+  display: none;
+}
+.welcome-dashboard{
+display: block;
+margin-left: 100px;
+}
+.account-text{
+  height:40px;
+  width:20%;
+  font-weight: 500;
+  background: none;
+  margin-right: 20%;
+}
+.dash-elem-iconA{
+  width:30px;
+  height:30px;
+  margin-bottom: 6%;
+}
+.logs-sora{
+  margin-bottom: 7%;
+}
+.card-zeft{
+  margin-bottom: 20%;
+}
+}

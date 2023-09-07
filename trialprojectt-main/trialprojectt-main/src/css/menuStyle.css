@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import-normalize;
+.backgroundMenu
+{
+height: 100vh;
+background: #20494E;
+background: linear-gradient(90deg, rgba(72,155,167,1) 45%, rgba(76,125,152,1) 100%);
+color: #ffffff;
+overflow-x: hidden;
+position: relative;
+}
+
+.mainStyleWrapper
+{
+width: 100%;
+color: #f5f6fa;
+background: #20494E;
+background: linear-gradient(90deg, rgba(72,155,167,1) 45%, rgba(76,125,152,1) 100%);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+transition:height 10s ease-out;
+}
+
+.titleMenu{
+
+    background: #20494E;
+    background: linear-gradient(90deg, rgba(72,155,167,1) 45%, rgba(76,125,152,1) 100%);
+    cursor: pointer;
+height: 17vh;
+
+}
+.titleMenuspan
+{
+font-family: 'Cairo', sans-serif;
+color:var(--white);
+font-size: 40px;
+}
+.btnMenuContainer
+{
+width: 100%;
+background-color: #f2f2f2;
+}
+
+.unorderWrapper
+{
+width: 80%;
+height: max-content;
+
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.cardType
+{
+
+width: 20%;
+margin: 2%;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.cardType:hover
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.lotiWrapper
+{
+height: 20vh;
+width: 100%;
+}
+.ImoLable{
+    margin-top: 2%;
+   color: #20494E;
+}
+.cardTextWrapper
+{
+    line-height: 3;
+    font-size: 20px;
+    color: var(--white);
+    background-color: #0F6FE8;
+    cursor: pointer;
+    text-decoration: none;
+}
+.linkCrd
+{
+color: var(--white);
+}
+.unorderWrapper button
+{
+    border: 0;
+}
+.displayNone
+{
+display: none;
+}
+.menuToChooseContainer{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #423f3f67;
+}
+.chooseWrapper
+{
+    background-color: #E9F5FD;
+    padding: 1%;
+    border-radius: 10px;
+    width: clamp(200px, 15%, 400px);
+}
+.titleCardSearch
+{
+    padding: 10%;
+    font-size: 40px;
+    border-bottom: 1px solid silver;
+    color: #20494E;
+    }
+.chooseWrapper input
+{
+ height: 4vh;
+ width: 100%;
+ border-radius: 6px;
+ border: 2px solid var( --grayfateh);
+padding: 8px 16px;
+margin-top: 12%;
+display: block;
+}
+.GoDropDown ,.ExitDropDown
+{
+width: 100%;
+margin-top: 10%;
+display: flex;
+align-items: flex-start;
+justify-content: end;
+cursor: pointer;
+border: 0;
+background-color: transparent;
+}
+.ExitDropDown
+{
+margin: 0;
+padding: 0;
+}
+@media (max-width: 1400px) {
+    .cardType{
+    width: 26%;
+    }
+
+}
+@media (max-width: 980px) {
+    .cardType{
+    width: 28%;
+    }
+
+}
+@media (max-width: 880px) {
+    .unorderWrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    .unorderWrapper{
+        width: 100%;
+        padding: 1%;
+    }
+    .cardType{
+        width: 30%;
+        }
+
+}
+
+@media (max-width: 750px) {
+
+    .cardType{
+        width: 50%;
+        }
+
+}

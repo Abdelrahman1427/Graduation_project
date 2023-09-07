@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.RepPage{
+    background-color: #E9F5FD;
+    height:100vh;
+    font-family: 'Podkova', serif;
+}
+
+.RepoTitle{
+    justify-content: center;
+    display:flex;
+    flex-direction: column; 
+    width: 75%;
+    height: 130%;
+    margin: auto;
+}
+
+.RepoTitle h1{
+    font-size: 40px;
+    margin:2%;
+    font-weight: 800;
+    color:#166CF7;
+}
+
+.side-img{
+    width:25%;
+    height:100vh;
+    float: left;
+    background-size: cover;
+    background-image: url('../imgs/Shiiips.jpg');
+    background-position: center;
+}
+.RepoBody{
+    color:#000;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.elmnt{
+margin-top: 2%;
+width: 40%;
+display: flex;
+flex-direction: row;
+}
+.txtSt{
+ width: 60%;
+ color:#000;
+ background-color: #E9F5FD;
+ border:none;
+}
+.labelSt{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 4%;
+}
+.unitelem{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    width: 100%;
+}
+.txtun{
+    width:30%;
+}
+.unitlbl{
+    margin-left: -80%;
+}
+.Tonlbl{
+    margin-left: -160%;
+}
+
+.WhitbtnP{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 38%;
+}
+.printbtnwhite{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #166CF7;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 16px;
+    width:7%;
+}
+.printbtnwhite:hover{
+    box-shadow: rgba(1, 1, 1, 0.16) 0px 3px 6px, rgba(1, 1, 1, 0.23) 0px 3px 6px;
+    background: #166CF7;
+    transition-duration: .1s;
+}
+.printbtnwhite:focus{
+    background: #166CF7;
+    outline: none;
+}
+
+@media (max-width: 1120px){
+    .side-img{
+        width: 0%;
+    }
+    .unitlbl{
+        margin-left: 50%;
+    }
+    .printbtnwhite{
+        width:10%;
+    }
+
+}
+@media (max-width: 912px){
+    .side-img{
+        width:0%
+    }
+    .labelSt{
+        width:130px;
+    }
+    .unitlbl{
+        margin-left: 80%;
+    }
+    .Tonlbl{
+        margin-left: 80%;
+    }
+    .unitelem{
+        width: 100%;
+    }
+    .printbtnwhite{
+        width:12%;
+    }
+}
+
+@media (max-width: 820px) {
+    .labelSt{
+        margin-right: 8%;
+    }
+    .side-img{
+        width:0%
+    }
+    .unitlbl{
+        margin-left: 80%;
+    }
+    .Tonlbl{
+        margin-left: 80%;
+    }
+    .elmnt{
+        width:80%;
+    }
+    .printbtnwhite{
+        width:15%;
+        margin-left: 18%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 768px){
+    .printbtnwhite{
+        width: 18%;
+    }
+}
+@media (max-width: 375px){
+    .labelSt{
+        margin-right: 0%;
+    }
+    .side-img{
+        width:0%
+    }
+    .unitlbl{
+        margin-left: 100%;
+    }
+    .Tonlbl{
+        margin-left: 140%;
+    }
+    .elmnt{
+        width:50%;
+    }
+    .printbtnwhite{
+        width:30%;
+        margin-left: 18%;
+        margin-top: 5%;
+    }
+
+}
+@media print{
+    .RepoTitle{
+        width:100%;
+    }
+    .RepoTitle{
+        text-align: center;
+    }
+
+    .labelSt{
+        margin-right: 8%;
+    }
+    .side-img{
+        width:0%
+    }
+    .unitlbl{
+        margin-left: 80%;
+    }
+    .Tonlbl{
+        margin-left: 80%;
+    }
+    .elmnt{
+        width:80%;
+    }
+    .printbtnwhite{
+        background:#E9F5FD;
+        color:#E9F5FD;
+    }
+}

@@ -1,0 +1,183 @@
+.ChartsArrival{
+   width: 100%;
+   margin-top: 1%;
+   padding: 1%;
+}
+.halfWidthChart , .halfWidthsm
+{
+    width: 45%;
+    height: 100%;
+}
+.GraphDash{
+  min-height: 60vh;
+  align-items: center;
+}
+.firstChart , .SecondChartContainer ,.firstChartsm , .SecondChartContainersm
+{
+background-color:var(--whiteCard) ;
+margin-left: 2%;
+height:60vh;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.firstChartsm{
+  margin-top: -6%;
+  border-radius:10px 10px 10px 10px;
+}
+.firstChart{
+  border-radius:10px 10px 10px 10px;
+}
+.SecondChartContainersm{
+  margin-top: -6%;
+  border-radius:10px 10px 10px 10px;
+}
+.SecondChartContainer{
+  border-radius:10px 10px 10px 10px;
+}
+
+.ChartsArrivalsm{
+  height: 90px;
+ width: 100%;
+ margin-top: 1%;
+ padding: 1%;
+
+}
+
+.inputdashWrapper{
+height: 50px;
+border-top: 0.1rem solid #bbc1e1;
+}
+
+.limit{
+  width: 20%;
+  margin-left: 2%;
+}
+.limitClass
+{
+  border-radius: 7px;
+  outline: none;
+
+  vertical-align: unset;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: var(--dashboardchartcards);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  height: 25px;
+  text-indent: 2%;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+        margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.limitClass:hover
+{
+  border-color: var(--dashboardcards);
+}
+.inputdashWrapper{
+  width: 100%;
+}
+.DateWrapper
+{
+  width: 50%;
+  padding-top: 2%;
+  height:100%;
+}
+.DateWrapper input , .limit input {
+  padding: 1%;
+}
+.DateDash
+{
+  border-radius: 7px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: var(--dashboardchartcards);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+   height: 25px;
+}
+.DateDash:hover{
+  border-color: var(--dashboardcards);
+}
+
+.limit
+{
+  height: 100%;
+  padding-top: 2%;
+}
+
+.goBtn
+{
+  width: 20%;
+  height: 100%;
+  padding-top: 2%;
+  margin-left: 2%;
+}
+
+
+.goBtn button {
+  background-color: var(--dashboardcards);
+  color: var(--dashboardcardstext);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  width:50%;
+  height:60%;
+  border: var(--dashboardcards);
+}
+
+.goBtn button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.recurring-both-mo7awla{
+  margin-right: 11%;
+}
+
+@media screen and (max-width: 773px) {
+    .CardsWrapper {
+     flex-direction: column;
+    }
+  .cardContainer
+    {
+      margin-top: 2%;
+    }
+    .ChartsArrival
+    {
+        flex-direction: column;
+    }
+    .ChartsArrivalsm{
+      flex-direction: column;
+      height: 120px;
+    }
+
+    .firstChartsm , .SecondChartContainersm {
+      margin-top: 2%;
+      width: 90%;
+    }
+    .firstChart , .SecondChartContainer
+    {
+        margin-top: 2%;
+    }
+    .halfWidth
+    {
+        height: 50%;
+        width: 90%;
+    }
+  }

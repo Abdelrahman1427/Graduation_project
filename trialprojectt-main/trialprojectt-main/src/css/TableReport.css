@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+.reportContainer
+{
+    background-color: #d2d2d2;
+    min-height: 100vh;
+}
+.reportContainer-logs
+{
+    background-color: #F2F2F2;
+    min-height: 100vh;
+}
+.WholeRepo{
+font-family: 'Podkova', serif;
+
+}
+.WholeRepo h1{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding-top: 3%;
+    font-weight: 800;
+    color:#166CF7;
+}
+.kqWIVd{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.WholeTable{
+    border-radius: 50px;
+
+
+}
+.wholeTable{
+    width:80%;
+    margin-left: 10%;
+    align-items: center;
+
+}
+
+[data-column-id="name"].rdt_TableCol, [data-column-id="permexp"].rdt_TableCol{
+    background-color: #166CF7;
+    color:#fff;
+    border-radius: 0px 10px 0px 0px;
+}
+
+[data-column-id="code"].rdt_TableCol {
+    background-color: #166CF7;
+    color:#fff;
+    border-radius: 10px 0px 0px 0px;
+}
+
+[data-column-id="Aname"].rdt_TableCol, [data-column-id="permno"].rdt_TableCol,  [data-column-id="permdate"].rdt_TableCol
+{
+    background-color: #166CF7;
+    color:#fff;
+}
+
+.btnP{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #d2d2d2;
+    padding: 2%;
+}
+.printbtn{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #166CF7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.printbtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition-duration: .1s;
+}
+.printbtn:focus{
+    background: #166CF7;
+    outline: none;
+}
+@media print {
+    .wholeTable{
+        margin-left: 0;
+        width: max-content;
+    }
+ }

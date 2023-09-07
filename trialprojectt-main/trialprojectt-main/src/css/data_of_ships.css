@@ -1,0 +1,58 @@
+.formShip{
+width: 90%;
+}
+.labelWrapperShip
+{
+width: 35%;
+}
+.formContainerShip
+{
+width: 40%;
+}
+.inputContainerShip
+{
+width: 40%;
+}
+.smlinputContainerShip
+{
+width: 30%;
+}
+.secondSection
+{
+margin-top: 0;
+width: 40%;
+}
+.noteShip
+{
+height: 10vh;
+}
+@media (max-width: 1300px) {
+.formContainerShip , .secondSection
+{width: 50%;}
+.labelWrapperShip
+{
+width: 42%;
+}
+}
+@media (max-width: 900px){
+.formContainer , .secondSection
+{
+width: 100%;
+}
+}
+@media (max-width: 600px){
+.labelWrapperShip
+{
+width: max-content;
+}
+.smlinputContainerShip
+{
+width: 45%;
+height: 57%;
+}
+.inputContainerShip
+{
+width: 50%;
+}
+
+}

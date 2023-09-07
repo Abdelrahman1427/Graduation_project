@@ -1,0 +1,267 @@
+{
+"Main_Data" : "Main Data",
+"Ships_Movement" : "Ship Movement Data",
+"Data_of_Arriving_ships":"Data of Arriving ships",
+"Voyage_Number": "Voyage Number" ,
+"Expected_date_of_Arrival":"Expected date of Arrival",
+"Actual_date_of_Arrival":"Actual date of Arrival",
+"Mooring_Date":"Mooring Date",
+"Arrival_Berth" :"Arrival Berth",
+"Ships_Cargo_upon_Arrival":"Ship’s Cargo upon Arrival",
+"Operation_Type" : "Operation Type",
+"Port_coming_from":"Port coming from",
+"ship_Agent":"Ship Agent",
+"Notes":"Notes" ,
+
+
+"Data_of_departing_ships" :"Data of departing ships" ,
+"Expected_Date_of_Departure" :"Expected Date of Departure" ,
+"Actual_date_of_Departure" : "Actual date of Departure",
+"Ships_Cargo_Upon_Departure" : "Ship’s Cargo Upon Departure" ,
+"Departure_Berth":"Departure Berth",
+"Destination_Port":"Destination Port" ,
+"Departure_Approval" :"Departure Approval",
+"Egyptian_Health_and_Safety_Department": "Egyptian Health and Safety Department",
+"Port_Authority" : "Port Authority",
+"Customs_Authority" : "Customs Authority" ,
+"Police" :"Police",
+
+"Main_Data_of_Ships" : "Main Data of Ships",
+"Call_Sign" :"Call Sign",
+"Ship_Name" : "Ship Name",
+"Country_Flag_of_the_Ship" :"Country Flag of the Ship",
+"Ship_Type":"Ship Type",
+"Date_Created" :"Date Created",
+"Number_of_passengers" : "Number of passengers" ,
+"Number_of_crew_members" :"Number of crew members",
+"Dead_Weight" :"Dead Weight" ,
+"Ship_Width":"Ship Width",
+"Gross_Ton" : "Gross Ton" ,
+"Tons" :"Tons",
+"Draft" :"Draft",
+"Meters" :"Meters",
+"Ship_Length" :"Ship Length" ,
+
+"Data_of_Countries" : "Data of Countries",
+"Country_Code":"Country Code",
+"Country_Name" :"Country Name" ,
+
+"Data_of_Ship_Types" : "Data of Ship Types",
+"Ship_Type_Code" :"Ship Type Code" ,
+
+"Data_of_Agents" :"Data of Agents",
+"Agent_Code" :"Agent Code",
+"Agent_Name" : "Agent Name",
+"Address" :"Address",
+"Phone" : "Phone",
+"E_mail" :"E-mail",
+"Permission_No":"Permission No.",
+"Permission_Date" : "Permission Date",
+"Permission_Exp_Date" :"Permission Exp. Date",
+
+"Data_of_Ports":"Data of Ports",
+"Port_Code":"Port Code",
+"Port_Name":"Port Name" ,
+
+"Search_Here" :"Search Here",
+"please_Target" :"Empty value" ,
+"required_place" : "Required" ,
+
+"Data_of_Signs" : "Registration",
+"Sign_up":"Sign Up",
+"Create_ACC" :"Create Account",
+"Full_Name": "Full Name",
+"NameRuleOne":"Must begin with a letter are only allowed",
+"nameRuletwo" :" Should Contain at least the first name and last name ",
+"nameRuleThree" :" Numbers, underscore , hyphens and spaces at the end are not allowed.",
+"Enter_NAME" : "Enter your name",
+"Phone_Number" : "Phone Number" ,
+"phoneRuleone":"Number should start with  zero one" ,
+"phoneRuletwo":" Phone number Should Contain 11 Numbers" ,
+"Password" :"Password" ,
+"Enter_Valid_pass":"Enter a Valid Password",
+"paswruleOne" :"8 to 24 Characters",
+"passRuletwo" :"Must include uppercase and lowercase letters , a number and a special character.",
+"passRuleThree" :"Allowed special characters : ",
+"ConfirmPass" :"Confirm Password" ,
+"confirmplacePass" : "Confirm your password",
+"matchPassw" :" Must match the first password input field",
+"Admin" : "Admin" ,
+"Users" :"User",
+"Choose_Role" :" Choose Role",
+"Data_User": "Data of Employees" ,
+
+"Reports" : "Reports",
+
+"NumberEmp" :"Employees",
+"NumberAdmin" :"Admins",
+
+"Search" :"Search" ,
+"from" :"from",
+"to" :"to",
+"SearchwithImo" :"Search with IMO" ,
+"Employee_Name" :"Employee Name" ,
+"Role" :"Role" ,
+"Data_of_Employee":"Data of Employee",
+"Rep":"Rep",
+"ort" :"ort" ,
+"NumberVistiors" :"Visitors " ,
+"Limit" :"Limit" ,
+"AboutUs" :"About Us" ,
+"AboutParagraphFirst" :"Alexandria Maritime Port occupies the leading position in the ports of the Arab Republic of Egypt with regard to the volume of trade movement, through which about 60% of Egypt’s foreign trade is traded." ,
+"AboutParagraphSecond" :"It handles over three quarters of Egypt foreign trade .  The West harbor is used for commercial shipping. The harbor is formed by tow converging breakwaters. No development was made to the port for many years until an integrated plan was set for the various areas of work in the port"
+,
+"Add" : "Add" ,
+"Update" :"Update" ,
+"Delete" :"Delete" ,
+"optional" : "Optional" ,
+"Sorry" :" Sorry, Page Not Found" ,
+"PAGE_Requested" :"The page you requested can not be found" ,
+"LinkHome" : "Go Back Home",
+"Ship_Arrival":"Ship Arrival ",
+"Report":"Report.",
+"Print":"Print",
+"Ship_Dep":"Ship Departure ",
+"Main_Sh_Data":"Main Data of Ship ",
+"Ag_Data": "Agents Data ",
+"Ship_Types_Data": "Ship Types Data" ,
+"Country_Data":" Country Data ",
+"Port_Data":"Ports' Data ",
+"Operation_No":"Operation Number",
+"Arrival_Period":"Ships Arrival over a period ",
+"Berth_depth":"Departure Berth Depth",
+"DestinationPort": "Destinaton Port",
+"Cargo_dep": "Departure Cargo",
+"Mari_safety":"Maritime Safety",
+"Dep_Period":"Ships Departure over a period ",
+"Arrival_Frequent":"Ship Frequentation Over a Period at Arrival ",
+"Dep_Frequent":"Ship Frequentation Over a Period at Departure " ,
+"Dashboard" : "Dashboard" ,
+"Alexandria" : "Alexandria" ,
+"Egypt" : "Egypt" ,
+"Celsius" :"Celsius" ,
+"Alexandria_Port_Athourity" :"Alexandria Port Authority" ,
+"portDescription" :"is one of the most important and largest ports in the Middle East and Africa" ,
+"Services" :"Services" ,
+"Contact_Us" : "Contact Us" ,
+"Login" : "Login" ,
+"unauthorized" :"Unauthorized",
+"Sorry_un": "Sorry Unauthorized to request the page",
+"Main_Data_usermenu": "Reports of data about ships",
+"pc_Data_usermenu" : "Reports of data about ports and countries",
+"AG_Data_usermenu" : "Reports of data about the ship agents",
+"DA_Data_usermenu" : "Reports about arrival and departure of ships",
+"DA_Data_usermenu_period" : "Reports of ships data over a period of time",
+"main-usermenu" :"Main Menu",
+"contact-us-user" : "Contact Us",
+"Main_Data_btn" : "Main Data",
+"Ship_Types_btn" : "Ship Types",
+"Port_btn" : "Ports Data",
+"Cont_btn" : "Countries Data",
+"ag_btn": "Agent Data",
+"Arriv_Data_usermenu" : "Arriving Ships Data",
+"Depart_Data_usermenu" : "Departing Ships Data",
+"Arriv_usermenu":"Arriving Ships",
+"Depart_usermenu" : "Departing Ships",
+"Arriv_Freq_usermenu" : "Ship Frequentation (Arrival)",
+"Depart_Freq_usermenu" : "Ship Frequentation (Departure)",
+"Search_with_IMO" : "Search with IMO",
+"Includes_main_ship":"Includes ship name & ship flag",
+"desc_ship" : "Ship description (length, width, draft)",
+"Includes_ship_types": "Includes ship type code & the type name",
+"Includes_port_code_name" : "Includes port code & its name",
+"Includes_contry_code_name" : "Includes countries code & country name",
+"Includes_ship_agent" : "Includes data about the ship agents (Code, Name, Address, Telephone)",
+"Includes_perm_exp_valid" : "Includes the permissions of each ship agent and its validity date"
+,"Search_IMO_Arriv" : "Search with IMO & Arrival date"
+,"Search_IMO_Depart" : "Search with IMO & Departure date"
+,"Search_IMO_Period" : "Search with IMO & period of time (from .. to)"
+,"Include_op_type" : "Includes Voyage No., Berth No., Ship Agent & Operation Type"
+,"Include_cargo_type" : "Includes Voyage No., Berth No., Ship Agent & Operation Type"
+,"arriv_period" : "Search all ships arrived over a period of time (from .. to)"
+,"depart_period" : "Search all ships departed over a period of time (from .. to)"
+,"Includes_Freq_Arrival" : "Includes the frequentation of one ship in arrival over a specified period of time"
+,"Includes_Freq_Departure" : "Includes the frequentation of one ship in departure over a specified period of time"
+
+,"serv_title" : "Services"
+,"Container" : "Container"
+,"General_cargo" : "General Cargo"
+,"Cruise" : "Cruise"
+,"Warehousing" : "Warehousing"
+,"Mar_serv" : "Marine Services"
+,"Liq_Gas" : "Liquid & Gas"
+
+,"Achievements" : "Achievements"
+,"achiv_1" : "Significant Increase In Exports"
+,"date_1" : "August 2021"
+,"content_1" : "With the end of the fiscal year 2020/2021, the statistical data of the General Authority of Alexandria Port shows that it was able to significantly overcome the negative effects of the Corona virus, which swept the world, negatively affecting the movement of global trade and declining performance rates in many international ports. However, Alexandria Port has succeeded in turning the index negative to positive indicator; The volume of trading in Alexandria and Dekheila ports during the last fiscal year reached 61.3 million tons of various types of goods, an increase of 1% over the previous fiscal year."
+
+,"achiv_2" : "Highest Trading Rates"
+,"date_2" : "December 2021"
+,"content_2" : "The General Authority of Alexandria Port succeeded during the year 2021 in overcoming the effects of the Corona crisis, which cast a shadow during the previous two years on the movement of international trade in various ports of the world. Contained goods recorded the highest increase during 2021 by 17.3% over the previous year, with a quantity of 23.7 million tons."
+
+,"achiv_3" : "Growth In Navigation Traffic"
+,"date_3" : "October 2022"
+,"content_3" : "The movement of goods handling in the Alexandria Port General Authority witnessed a remarkable increase in most types of goods during October of this year compared to October 2021, where general goods topped the list of goods that witnessed a significant increase of 35%. The movement of containerized goods also witnessed an increase in the volume of handling during the month of October of this year compared to October of the year 2021 by 16.7%"
+
+,"achiv_4" : "Handled 147k Tons Within 24 Hrs"
+,"date_4" : "April 2023"
+,"content_4" : "During the last 24 hours, the handling and navigation movement in the General Authority of Alexandria Port witnessed a great activity, as 32 ships entered and exited in one day to the berthes of Alexandria and Dekheila ports, and work is currently underway to stevedore 42 ships, most notably container ships and dry and liquid bulk The container handling movement, the port witnessed a great activity within 24 hours, as 1415 TEUs were handled."
+
+,"achiv_5" : "Highest Ships Call In Its History"
+,"date_5" : "May 2023"
+,"content_5" : "The General Authority of Alexandria Port had previously announced during March of this year2023 that it had achieved the highest average monthly ship call since 2016 with rate 404 ships, but in May it succeeded in exceeding that rate with an increase of more than 8.2%. The port also witnessed a significant increase in most types of ships during May 2023, as the number of ships reached to be 437 ships."
+
+,"hotline" : "Hotline: "
+,"reach_out" : "Reach out: "
+,"location_footer" : "Show on map"
+,"address_part1" : "106 El Horria Avenu, Alex Fouad St. Alex"
+,"address_part2" : "Alexandria 26514"
+,"address_part3" : "Egypt"
+
+,"email_footer" : "E-mail: "
+,"website_email" : "Website Email: "
+,"Enquiries" : "General Enquiries: "
+,"our_web" : "Our Website: "
+,"copyrights" : "Copyright 2023 General Authority of Alexandria Port. All rights reserved."
+,"privacy_footer" :"Privacy Policy"
+,"terms" : "Terms of Use" ,
+"Select_an_operation_type" :"Select an operation type" ,
+"Bunkering" : "Bunkering" ,
+"Loading" :"Loading" ,
+"Loading_and_Unloading" :"Loading and Unloading" ,
+"Maintenance" :"Maintenance" ,
+"Loading_and_Unloading_passengers" :"Loading and Unloading passengers" ,
+"Supplying_water" :"Supplying_water" ,
+"Unloading" :"Unloading" ,
+"date_Change" :"Date" ,
+"Changes" : "Changes" ,
+"Table" : "Table",
+"logs"  : "Logs" ,
+"logout" :"Log out" ,
+"port_Authority" : "Port Authority " ,
+"Weather" : " Weather " ,
+"Welcome," : " Welcome, " ,
+"About_Team" :"Project Team ",
+"Main_dash" : "Main Dashboard",
+"dash-subtitle-track" : "Track all port activities & data in visualized charts and statistics.",
+"reports-dash" : "View Reports",
+"first_chart" : "Destination Ports",
+"second_chart" : "Operations",
+"chart_three" : "Ports of origin",
+"chart_four" : "Operations with  limit number",
+"chart_five" : "Ports of origin with  limit number",
+"chart_six" : "Operations with date",
+"chart_seven" :"Ports of origin with date",
+"chart_eight" : "Operations with date and limit number",
+"chart_nine" : "Ports of origin with number and date limits",
+"chart_ten" : "Highest number of recurring ships with the date and limit number",
+"chart_eleven" : "Destination Ports with a number limit",
+"chart_twelve" : "Destination Ports with date",
+"chart_thirteen" : "Destination ports with number and date",
+"chart_fourteen" : "Highest No of Recurring Ships",
+"chart_fifteen" : "Highest No of Recurring Ships with a number limit",
+"chart_sixteen" : "Highest No of Recurring Ships with date",
+"count_chart" : "Recurring Ship Dates",
+"Go" :"Go"
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.google.com/specimen/Podkova');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Podkova';
+}
+
+.App {
+  text-align: center;
+  font-family: 'Podkova';
+}

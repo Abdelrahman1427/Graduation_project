@@ -1,0 +1,18 @@
+
+
+.titleWrapper
+{
+    height: 20vh;
+    background-image: url(../imgs/Untitled.png);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    clip-path: polygon(0% 100%, 100% 60%, 100% 0%, 0% 0%);
+
+}
+.menuText
+{
+    font-size: 2.7rem;
+    color: var(--white);
+        -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

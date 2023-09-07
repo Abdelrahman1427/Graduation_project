@@ -1,0 +1,80 @@
+.WholeFooter{
+    background: #20494E;
+    background: linear-gradient(90deg, #4C7D98 0%, #489ba7 62%);
+    line-height: 160%;
+    position: relative;
+}
+.bkgrnd{
+    padding: 5%;
+}
+.contentFooter{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items:start;
+}
+.col{
+    width:30%;
+}
+.textA{
+    color:#F0F3F4;
+    font-size: 12pt;
+    width: 100%;
+}
+.icon-footer{
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+}
+.Link{
+    text-decoration: none;
+    color: var(--white);
+    text-align: left;
+    font-weight:bold;
+}
+.Link:hover, .Link:focus {
+    color: var(--kohli);
+}
+/* ******************* */
+.copyrightBar{
+    display: flex;
+color:#0B2B3C;
+}
+.LinkC{
+    text-decoration: none;
+    color:#0B2B3C;
+    text-align: left;
+    font-weight:bold;
+    margin-left: 2%;
+}
+.LinkC:hover, .LinkC:focus {
+    color: #C2C2C2;
+}
+.leftPart{
+    width:50%;
+    text-align: left;
+    margin-left: 1%;
+}
+.rightPart{
+    width:50%;
+    text-align: right;
+    margin-right: 1%;
+}
+
+@media (max-width: 740px) {
+    .copyrightBar
+    {
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 950px) {
+    .contentFooter
+    {
+        height: 130vh;
+        flex-direction: column;
+    }
+    .col{
+        margin-top: 2%;
+    }
+}

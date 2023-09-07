@@ -1,0 +1,92 @@
+.AboutWrapper{
+height: 100vh;
+background-color: var(--white);
+/* background-color: antiquewhite; */
+overflow: hidden;
+}
+.ImageAbout
+{
+    width: 25%;
+    height: 80%;
+    background-color: aquamarine;
+    background-image: url(../imgs/joao-silveira-DYIitvTuoD0-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.ImageAbout p {
+    font-size: 9rem;
+    position: absolute;
+    left: 71%;
+    top: 5%;
+    width: max-content;
+    font-weight: 500;
+    background: #20494E;
+    background: linear-gradient(to top right, #489ba7 18%, #4C7D98 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.IconFont{
+    position: absolute;
+    right: 89%;
+    top: 55%;
+    font-size: 4rem;
+}
+.paragraph-About{
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(18, 29, 25); */
+    padding: 5%;
+}
+.paragraph-About p{
+    margin-top: 20%;
+    color: #35586b;
+}
+@media (max-width: 970px) {
+.ImageAbout
+{
+    width: 30%;
+}
+.ImageAbout p {
+    left: 33%;
+}
+}
+
+@media (max-width: 760px) {
+
+    .ImageAbout p {
+        left: -40%;
+        font-size: 7rem;
+    }
+    .paragraph-About{
+        width: 80%;
+    }
+    }
+
+    @media (max-width: 660px) {
+
+        .ImageAbout p {
+            left: -60%;
+            font-size: 5rem;
+        }
+    }
+    @media (max-width: 450px) {
+
+        .ImageAbout p {
+            left: -80%;
+            font-size: 5rem;
+        }
+    }
+    @media (max-width: 432px) {
+        .ImageAbout
+        {
+            width: 40%;
+        }
+        .ImageAbout p {
+            left: -80%;
+            font-size: 3rem;
+        }
+    }
+
+

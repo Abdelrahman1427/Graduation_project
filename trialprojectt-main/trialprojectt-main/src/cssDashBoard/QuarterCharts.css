@@ -1,0 +1,529 @@
+.ChartsArrival{
+    height: max-content;
+    overflow: hidden;
+}
+.ChartMain{
+    width: 100%;
+    height: 40vh;
+}
+.titleChart{
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.WeatherChart
+{
+    width: 65%;
+    background-color: rgb(41, 82, 82);
+    
+}
+.bar-issue{
+    min-width: 850px;
+    margin-left: 14%;
+}
+.ChartMainA, .ChartMainAB{
+    min-width: 650px;
+}
+.OperationContainer
+{
+    width: 25%;
+    margin-left: 2%;
+}
+.OperationContainerA
+{
+    width: 25%;
+    margin-left: 2%;
+}
+.WeatherChart , .OperationContainer
+{
+background-color:var(--whiteCard) ;
+margin-left: 2%;
+border-radius: 10px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+margin-bottom: 0.5%;
+}
+.GraphDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GraphDashA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 555px;
+}
+.search-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dash-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.arrivalbothchart{
+  margin-left: 30%;
+}
+
+@media screen and (max-width: 773px) {
+
+    .OperationContainer
+    {
+       margin-top: 2%;
+    }
+    .WeatherChart
+    {
+        width: 90%;
+        margin-top: 2%;
+    }
+    .OperationContainer
+    {
+        width: 50%;
+    }
+  }
+@media (max-width:1700px){
+    .GraphDashA{
+        height: 505px;
+    }
+    .recurring-both-mo7awla{
+        width:895px;
+      }
+  } 
+  @media (max-width:1690px){
+    .recurring-both-mo7awla{
+      width:890px;
+    }
+  }
+  @media (max-width:1670px){
+    .recurring-both-mo7awla{
+      width:880px;
+    }
+  }
+  @media (max-width:1660px){
+    .recurring-both-mo7awla{
+        width:870px;
+      }
+  }
+  @media (max-width:1650px){
+    .recurring-both-mo7awla{
+        width:860px;
+      }
+  }
+  @media (max-width:1630px){
+    .recurring-both-mo7awla{
+        width:850px;
+      }
+  }
+  @media (max-width:1610px){
+    .recurring-both-mo7awla{
+        width:830px;
+      }
+}
+
+  @media (max-width:1580px){
+    .recurring-both-mo7awla{
+      width:810px;
+    }
+  }
+  
+  @media (max-width:1550px){
+    .recurring-both-mo7awla{
+      width:800px;
+    }
+  }
+
+  @media (max-width:1530px){
+    .recurring-both-mo7awla{
+      width:780px;
+    }
+  }
+
+  @media (max-width:1500px){
+    .recurring-both-mo7awla{
+      width:760px;
+    }
+  }
+  @media (max-width:1490px){
+    .recurring-both-mo7awla{
+      width:750px;
+    }
+  }
+  @media (max-width:1480px){
+    .recurring-both-mo7awla{
+      width:745px;
+    }
+  }
+  @media (max-width:1460px){
+    .recurring-both-mo7awla{
+      width:735px;
+    }
+  }
+  @media (max-width:1450px){
+    .bar-issue{
+        margin-left: 18%;
+  }
+  .ChartMainAB, .ChartMainA{
+    margin-right: 12%;
+  }
+  .recurring-both-mo7awla{
+    width:725px;
+  }
+  .ChartMainABc{
+margin-left: 22%;
+  }
+}
+@media (max-width:1420px){
+    .recurring-both-mo7awla{
+      width:715px;
+    }
+  }
+ 
+@media (max-width:1390px){
+    .bar-issue{
+        margin-left: 20%;
+  }
+  .ChartMainABc{
+    margin-left: 25%;
+      }
+  }
+ 
+  @media (max-width:1360px){
+    .recurring-both-mo7awla{
+      margin-left:4%;
+    } 
+    .ChartMainAB, .ChartMainA{
+        margin-right: 22%;
+    }
+    .bar-issue{
+        min-width: 700px;
+        margin-right: 20%;
+    }
+    .ChartMainABc{
+        margin-left: 20%;
+        }
+  }
+  @media (max-width:1340px){
+    .chartelkbeera{
+    width:290px;    
+
+  }
+}
+ 
+@media (max-width:1270px){
+    .recurring-both-mo7awla{
+      margin-left:4%;
+    } 
+    .bar-issue{
+        min-width: 690px;
+        margin-right: 20%;
+    }
+  }
+  @media (max-width:1360px){
+    .recurring-both-mo7awla{
+      margin-left:4%;
+    } 
+    .ChartMainAB, .ChartMainA{
+        margin-right: 22%;
+    }
+    .bar-issue{
+        min-width: 700px;
+        margin-right: 20%;
+    }
+    .ChartMainABc{
+        margin-left: 20%;
+    }
+  }
+  @media (max-width:1340px){
+    .chartelkbeera{
+    width:290px;    
+  }
+  .bar-issue {
+    min-width: 640px;
+}
+.ChartMainA, .ChartMainAB{
+    width:90%;
+    margin-right: 28%;
+}
+}
+  @media (max-width:1140px){
+  .bar-issue {
+    min-width: 600px;
+}
+.ChartMainA, .ChartMainAB{
+    width:90%;
+    margin-right: 28%;
+}
+}
+@media (max-width:1050px){
+    .bar-issue {
+        min-width: 580px;
+    }
+}
+@media only screen and (max-width: 1024px) and (max-height: 600px){
+    .OperationContainer{
+        width: 50%;
+        height: 505px;
+    }
+    .ChartMain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .GraphA{
+        height:505px;
+    }
+}
+
+
+@media only screen and (max-width: 912px){
+    .dash-flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .WeatherChart
+    {
+    display: flex;
+    flex-direction: column;
+    width:750px;
+    height:35vh;
+    justify-content: center;
+    align-items: center;
+    }
+    .GraphDashA{
+        margin-top: 25%;
+        height:10vh;
+    }
+    .OperationContainer{
+        width:750px;
+        margin-top: 2%;
+    }
+    .chartelkbeera{
+        margin-bottom: 60%;
+        width:300px; 
+    }
+    .charteltanya{
+        width:280px;
+        height:20vh;
+    }
+    .inputdashWrapper{
+        margin-top:0%;
+    }
+    .awelop{
+        height:30vh;
+    }
+    .oplimitcontainer{
+        height: 30vh;
+    }
+    .titleoplimit{
+        margin-top: -55%;
+    }
+    .ChartMainA{
+        width: 700px;
+        margin-left:0%;
+    }
+    .arrivinglimit{
+        margin-top: -5%;
+    }
+.arrivalbothchart{
+  margin-top: -20%;
+  margin-left: 0%;
+  margin-right: 2%;
+}
+  .arrivingdatesearch{
+    margin-bottom: -25%;
+  }
+    .ChartMainAB{
+        width: 700px;
+    }
+    .halfWidthChart{
+      min-width: 750px;
+      max-height: 36vh;
+      margin-bottom: 3%;
+    }
+    .arrivalbothchart{
+      width:650px;
+    }
+   .arrivdash{
+    margin-top: -20%;
+   }
+   .arrivdashA{
+    margin-top: -10%;
+   }
+   .arrivdashAB{
+    margin-top:-23%;
+   }
+   .depart-search{
+    margin-top: -25%;
+   }
+   .arrivdashABC{
+    margin-top: -10%;
+   }
+   .arrivdashABCD{
+    margin-top: -20%;
+   }
+   .hnor-search{
+    margin-top: -23%;
+   }
+   .hnor-searchA{
+    margin-top: -45%;
+   }
+   .recurring-both-mo7awla{
+    width:750px;
+    margin-left: 13%;
+  }
+
+}
+
+@media only screen and (max-width: 912px){
+  .WeatherChart{
+    width:650px;
+    height:40vh;
+  }
+  .titleoplimit{
+    margin-top: -60%;
+}
+.arrivingdatesearch{
+  margin-top: -18%;
+}
+.OperationContainer{
+  width:650px;
+}
+.halfWidthChart{
+  min-width: 650px;
+}
+.ChartMainA{
+  width: 600px;
+  margin-left:28% ;
+}
+.ChartMainAB{
+  width: 600px;
+  margin-left:28% ;
+}
+.arrivingdatesearch{
+  margin-top: -24%;
+}
+.depart-search{
+  margin-top: -20%;
+ }
+ .hnor-searchA{
+  margin-top: -30%;
+ }
+}
+@media only screen and (max-width: 768px){
+  .awelop{
+    height:40vh;
+}
+.charteltanya{
+  width:350px;
+  height:28vh;
+}
+.oplimitcontainer{
+  height: 40vh;
+}
+.titleoplimit{
+  margin-top: -35%;
+}
+.WeatherChart{
+  width:650px;
+  height:50vh;
+}
+.arrivingdatesearch{
+  margin-top: -10%;
+}
+.halfWidthChart{
+  max-height: 50vh;
+}
+.arrivdash{
+  margin-top: -10%;
+ }
+ .arrivdashA{
+    margin-top: -10%;
+   }
+   .arrivdashAB{
+    margin-top:-10%;
+   }
+   .depart-search{
+    margin-top: -10%;
+   }
+   .arrivdashABC{
+    margin-top: -10%;
+   }
+   .arrivdashABCD{
+    margin-top: -10%;
+   }
+   .hnor-search{
+    margin-top: -10%;
+   }
+   .hnor-searchA{
+    margin-top: -20%;
+   }
+   .recurring-both-mo7awla{
+    width:650px;
+    margin-left: 13%;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  .awelop{
+    height:55vh;
+}
+  .WeatherChart{
+    width:400px;
+    height:55vh;
+  }
+  .titleoplimit{
+    margin-top: -50%;
+}
+.arrivingdatesearch{
+  margin-top: -18%;
+}
+.OperationContainer{
+  width:400px;
+}
+.halfWidthChart{
+  min-width: 400px;
+}
+.bar-issue{
+  min-width: 400px;
+}
+.arrivingdatesearch{
+  margin-top:-24%;
+}
+.depart-search{
+  margin-top:-20%;
+ }
+ .hnor-searchA{
+  margin-top:-10%;
+ }
+ .GraphDashA{
+  margin-top:30%;
+}
+.chartelkbeera{
+  width: 300px;
+  height: 40vh;
+}
+.charteltanya{
+  width: 300px;
+  height: 40vh;
+}
+.oplimitcontainer{
+  height: 55vh;
+}
+.titleoplimit{
+  margin-top: -5%;
+}
+.ChartMainABc{
+width:200px;
+}
+.ChartMainAB{
+  width:200px;
+}
+
+}

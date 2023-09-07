@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+*{
+padding: 0;
+ margin: 0;
+box-sizing: border-box;
+font-family: 'Rubik', sans-serif ;
+}
+
+.d-flex
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.userNone{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.LinkNav{
+    text-decoration: none;
+    color: inherit;
+}
+Link {
+    text-decoration: none;
+}
+:root{
+    --kohli: #0C2341;
+    --grayfateh : #DFDEDD;
+    --signcover :#206DF4;
+    --white: white;
+    --titleColor:#1B3E54;
+    --orangefolh:#F29440;
+
+    --borderdash : #1e68e9;
+    --grayCard :#F2F2F2;
+    --whiteCard :white ;
+
+    --navbkgrnd: #03627A;
+
+    --ChartLightPink : #c80064;
+    --ChartLightBlue : #0040ff;
+    --whiteNav:white;
+
+    --dashboardmenu:#F2F2F2;
+    --dashboardline:#E3E4ED;
+    --dashboardlinkunselected:#8A8A8A;
+    --dashboardlinkhovered:#000;
+    --dashboardcards:#1E68E9;
+    --dashboardcardstext:#fff;
+    --dashboardchartcards:#fff;
+}

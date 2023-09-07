@@ -1,0 +1,7 @@
+.loadingWrapper
+{
+    z-index: 10000;
+    background-color: var(--white);
+    height: 100vh;
+    position: fixed;
+}

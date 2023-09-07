@@ -1,0 +1,123 @@
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.ServicesWrapper {
+  width: 100%;
+}
+.ServicesSection
+{
+  /* min-height: 60vh; */
+   padding: 6%;
+   background: #20494E;
+   background: linear-gradient(90deg, #4C7D98 0%, #489ba7 62%);
+   overflow-x: hidden;
+}
+.first-col-cards ,  .second-col-cards , .third-col-cards{
+margin-left: 3%;
+}
+.titleServices
+{
+    font-size: 3rem;
+    color: var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 2%;
+
+}
+.card-services {
+  width: 300px;
+  height: 300px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 26%;
+}
+
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-services{
+width: 80px;
+height: 80px;
+margin:5%;
+}
+.service-subtitle{
+  font-size: 1.3rem;
+  color:#fff;
+  font-weight: 400;
+}
+
+.card-services:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#F2F2F2, #fff);
+  border-radius: 50%;
+  position: absolute;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+.titleMain  {
+  margin-left: 2%;
+}
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+@media  (max-width: 1200px) {
+  .third-col-cards{
+    display: flex;
+    flex-direction: row;
+  }
+  .third-col-cards > .card-services{
+    margin: 2%;
+  }
+
+}
+@media  (max-width: 734px) {
+  .third-col-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .third-col-cards > .card-services{
+    margin-bottom: 36%;
+  }
+  .titleMain  {
+    margin-left: 11%;
+  }
+
+}

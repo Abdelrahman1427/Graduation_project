@@ -1,0 +1,187 @@
+.formContainer
+{
+height: 100%;
+width: 80%;
+
+}
+.inputsWrapper
+{
+height:7.5vh;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}
+.labelWrapper
+{
+width: 19%;
+height: 100%;
+color: var(--kohli);
+white-space: pre-line;
+}
+.inputContainer ,.SecinputContainer
+{
+width: 17%;
+height: 100%;
+
+}
+.smlinputContainer
+{
+width: 12%;
+height: 100%;
+font-size: 20px;
+}
+.inputContainer input ,.inputContainer select ,.smlinputContainer input
+{
+margin-top: 5.5%;
+height: 60%;
+width: 100%;
+border-radius: 6px;
+/* background-color: #DFDEDD; */
+border: 0;
+text-transform: uppercase;
+border: 2px solid var( --grayfateh);
+padding: 8px 16px;
+}
+
+.selectBox {
+    width: 100%; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  /* Style for the select box options */
+  .selectBox option {
+    padding: 8px;
+  }
+
+  /* Style for the select box when focused */
+  .selectBox:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 5px #0066cc;
+  }
+
+.smlinputContainer input {
+width: 85%;
+height: 60%;
+margin-top: 5.5%;
+border-radius: 6px;
+/* background-color: #DFDEDD; */
+text-transform: uppercase
+}
+.secMargin
+{
+margin-left: 2%;
+}
+.lginputContainer
+{
+    width: 60%;
+    height: 100%;
+}
+.lginputContainer textarea
+{
+height: 100%;
+width: 100%;
+/* background-color: #DFDEDD; */
+border-radius:10px;
+caret-color:var(--kohli);
+font-size: 18px;
+padding: 2%;
+}
+
+@media (max-width: 1300px) {
+.labelWrapper{
+width: 20%;
+}
+.inputContainer, .SecinputContainer
+{
+width: 20%;
+}
+.smlinputContainer
+{
+width: 15%;
+}
+.lginputContainer
+{
+width: 30%;
+}
+}
+
+@media (max-width: 960px) {
+.labelWrapper{
+width: 25%;
+}
+.smlinputContainer
+{
+width: 20%;
+}
+.inputContainer, .SecinputContainer
+{
+width: 25%;
+}
+    .formContainer
+{
+width: 95%;
+}
+}
+@media (max-width: 600px) {
+.labelWrapper
+{
+width: 60%;
+height: 30%;
+}
+.formContainer
+{
+width: 95%;
+}
+.inputsWrapper
+{
+height: 14vh;
+flex-direction: column;
+margin-top: 1%;
+}
+.inputContainer, .SecinputContainer
+{
+width: 45%;
+height: 50%;
+}
+.smlinputContainer
+{
+width: 41%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imoWrapper
+{
+height: 25vh;
+}
+
+.lginputContainer {
+width: 75%;
+}
+.smlinputContainer input
+{
+height: 50%;
+}
+}
+
+@media (max-width: 420px) {
+.data-form-wrapper
+{
+height: 200vh;
+}
+
+}
+@media (max-width: 376px) {
+.data-form-wrapper
+{
+height: 210vh;
+}
+
+}

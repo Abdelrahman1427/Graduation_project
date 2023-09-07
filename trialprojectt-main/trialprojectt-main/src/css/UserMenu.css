@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.userMenu{
+    /* background: #9CECFB;
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);*/
+
+    background: #20494E;
+  background: linear-gradient(90deg, #489ba7 20%, #4C7D98 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.cardTypeUser{
+    background: none;
+    border:none;
+}
+.logo-inv{
+    height:100px;
+    width:130px;
+    position:absolute;
+    left:0;
+    top:0;
+    margin: 0.8%;
+}
+
+.MenuList{
+    color: #fff;
+    text-align: center;
+}
+.listelem{
+    list-style-type: none;
+}
+.listelem h4{
+    font-size: larger;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.pic-elem{
+    background-color: #fff;
+    border-radius: 100px;
+    margin:5%;
+    width: 200px;
+    height: 200px;
+}
+
+.anim-elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom: 5%;
+}
+.btn-desc h3{
+    font-size: 30px;
+    margin-bottom: 10%;
+    width:90%;
+    text-align: left;
+}
+
+
+.flip{
+    transform: rotateY(180deg);
+}
+.btn-desc{
+    display: flex;
+    flex-direction: column;
+    float:left;
+}
+.btn-proceed{
+    background: #28A6E5;
+    width: 200px;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+.btn-proceed:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.arrow-style{
+    width:25px;
+    height:25px;
+    margin-left:5%;
+    margin-top: 2.5%;
+}
+.desc-list{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.desc-list li{
+    margin: 0;
+	padding: 8px 0 5px 50px;
+	list-style: none;
+	background-image:url("../imgs/userMenuIcons/cardinal-points.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+.left-col-menu{
+    float:left;
+}
+.right-col-menu{
+    float:right;
+    margin-left: 20%;
+}
+.contact-btn-menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 1.7%;
+    background-color: #F29440;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.contact-btn-menu:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+@media (max-width: 912px){
+    .contact-btn-menu{
+        margin:4.8%;
+    }
+}
+@media (max-width:820px){
+    .contact-btn-menu{
+        margin:6%;
+    }
+    .left-col-menu{
+        margin-left: 5%;
+    }
+    .right-col-menu{
+        margin-right: 5%;
+    }
+}
+@media (max-width:540px){
+    .btn-desc h3{
+        font-size: 20px;
+        width: 100%;
+    }
+    .listelem h4{
+        font-size: medium;
+    }
+    .btn-proceed{
+    width: 170px;
+    height:40px;
+    font-size: small;
+    }
+    .pic-elem{
+      display:none;
+    }
+    .desc-list li{
+    font-size: 15px;
+    }
+}
+@media (max-width:414px){
+    .contact-btn-menu{
+        width:80px;
+        height:30px;
+        font-size: 12px;
+        margin: 4.5%;
+    }
+    .logo-inv{
+        height:60px;
+        width:90px;
+    }
+    .btn-proceed{
+        width: 140px;
+        height:40px;
+        font-size: small;
+    }
+    .arrow-style{
+        display: none;
+    }
+}

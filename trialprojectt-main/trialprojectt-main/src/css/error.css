@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.fistHalf
+{
+height: 50vh;
+position: relative;
+}
+.errorType
+{
+font-size: 13rem;
+font-weight: 800;
+color: var(--kohli);
+position: absolute;
+top: 31.5%;
+font-family:Anton ;
+}
+.secondHalf
+{
+height: 50vh;
+background-image: url('../imgs/Untitled.png');
+display: flex;
+justify-content: center;
+}
+.errorWrapper
+{
+color: var(--white);
+}
+.firstWrap
+{
+font-family: Roboto;
+font-size: 3.4rem;
+height: 15vh;
+font-weight: 100;
+}
+.secondWrapper
+{
+font-family: Roboto;
+font-size: 1.3rem;
+height: 12vh;
+}
+.thirdWrapper
+{
+height: 7vh;
+}
+.gback
+{
+width: 35%;
+height: 100%;
+font-size: 1.2rem;
+border-bottom-left-radius:30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+background-color: var(--white);
+color: var(--kohli);
+cursor: pointer;
+}

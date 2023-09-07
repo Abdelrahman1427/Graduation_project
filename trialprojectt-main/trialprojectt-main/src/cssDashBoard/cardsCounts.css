@@ -1,0 +1,366 @@
+
+.cardContainer
+{
+    width: clamp(200px, 15%, 400px);
+    height: 20vh;
+    background-color: var(--dashboardcards);
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+    width: 18%;
+    overflow: hidden; 
+    color:var(--dashboardcardstext);
+}
+.cardsFlex div {
+  width: 50%;
+  height: 8vh;
+  font-size: 24px;
+}
+.CardsWrapper
+{
+margin-top: 2%;
+ 
+}
+.WrapperTitleCount  {
+  width: 100%;
+  font-size: 18px;
+}
+.content-of-card-blue{
+  margin-left: 18%;
+  margin-top: 5%;
+  min-width: max-content;
+}
+.iconCard
+{
+margin-left: 30%;
+}
+.img-card-wallpaper-container{
+  height: 20vh;
+  width: 20%;
+ 
+}
+.img-card-wallpaper{
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 120px;
+  height: 120px;
+  filter: invert(95%);
+}
+.time-card{
+  margin-top: 40%;
+  width: 120px;
+  height: 120px;
+  filter: invert(95%);
+  margin-left: -40%;
+}
+.ChartMainA, .ChartMainAB{
+  margin-left: 28%;
+}
+.ChartMainABc{
+  min-width: 850px;
+}
+
+.GraphDashABC{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:60vh;
+}
+.counter-label{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  width:60px;
+  height:60px;
+}
+.count-label-dash{
+  height:50px;
+  width:auto;
+  font-size: medium;
+  text-align: center;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+.whole-count-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Btn-dash-count
+{
+  width: 30%;
+  height: 50px;
+  padding-top: 2%;
+  margin-left: 16%;
+}
+
+.Btn-dash-count button {
+  background-color: var(--dashboardcards);
+  color:var(--dashboardcardstext);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  width:80%;
+  height:60%;
+  border: var(--dashboardcards);
+  margin-left: 80%;
+  margin-top: 10%;
+}
+.Btn-dash-count button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.input-name-count
+{
+  border-radius: 7px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  margin: 0;
+  cursor: pointer;
+  border: 0.1rem solid #bbc1e1;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 250px;
+  height: 25px;
+  margin-top: 30%;
+}
+.input-name-count:hover{
+  border-color: #275efe;
+}
+.date-input{
+  margin-left:4% ;
+  margin-top: 10%;
+}
+.chart-hnorboth{
+  width:500px;
+}
+.card-zeft {
+  background-color:var(--whiteCard) ;
+  height:60vh;
+  width: 92%;
+  margin-left: 2%;
+  border-radius: 20px;
+  background: var(--dashboardchartcards);
+  position: relative;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ 
+ .card-zzeft-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--dashboardcards);
+  color: var(--dashboardcardstext);
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ .card-button:hover{
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ .text-body {
+  color: rgb(134, 134, 134);
+ }
+ 
+ /*Text*/
+ .text-zeft-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+ /*Hover*/
+ .card-zeft:hover {
+  border-color: var(--dashboardcards);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card-zeft:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+ .Count-of-recurring{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+ }
+
+@media screen and (min-width: 1500px) {
+  .cardContainer {
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 773px) {
+  .CardsWrapper {
+   flex-direction: column;
+  }
+.cardContainer
+  {
+    margin-top: 2%;
+  }
+}
+
+
+@media (max-width: 1700px){
+  .content-of-card-blue{
+    margin-left: 30%;
+  }
+  .time-card{
+    margin-left: -90%;
+  }
+}
+@media (max-width:1700px){
+  .card-zeft{
+    margin-left: -35%;
+  }
+}
+@media (max-width:1500px){
+  .cardContainer{
+    height:126px;
+  }
+}
+@media (max-width:1480px){
+  .content-of-card-blue{
+    margin-left: 40%;
+  }
+  .time-card{
+    margin-left: -130%;
+  }
+  .img-card-wallpaper{
+    margin-top: 5%;
+    margin-left: 30%;
+  }
+}
+@media (max-width:1420px){
+  .card-zeft{
+    margin-left: -37%;
+  }
+}
+@media (max-width:1360px){
+  .card-zeft{
+    width: 110%;  
+    margin-left: 0%;
+  }
+  .arrivalbothchart{
+    margin-right: 20%;
+  }
+}
+
+@media (max-width:1340px){
+  .content-of-card-blue{
+    margin-left: 45%;
+  }
+  .time-card{
+    margin-left: -170%;
+  }
+  .img-card-wallpaper{
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+@media (max-width:1270px){
+  .card-zeft{
+    width: 120%;  
+    margin-left: -36%;
+ 
+  }
+  .input-name-count{
+    width: 190px;
+    margin-left: 15%;
+  }
+  .date-input{
+    margin-left: 10%;
+  }
+  .text-zeft-title{
+    font-size: 15pt;
+  }
+}
+@media (max-width:1080px){
+  .img-card-wallpaper, .time-card{
+    display: none;
+  }
+  .content-of-card-blue{
+    margin-left: 35%;
+  }
+  .WrapperTitleCount{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .counts-cont{
+    margin-left: 40%;
+  }
+}
+@media (max-width:1024px){
+  .card-zeft{
+    width: 110%;  
+    margin-left: 5%;
+    height:85vh;
+  }
+}
+@media only screen and (max-width: 912px){
+  .content-of-card-blue{
+    margin-top: -10%;
+  }
+}
+@media only screen and (max-width: 912px){
+  .card-zeft{
+    width: 305%;  
+    margin-left: -100%;
+    margin-top: 15%;
+    height:35vh;
+    margin-bottom: 10%;
+  }
+}
+@media only screen and (max-width: 768px){
+  .cardContainer{
+    width:300px;
+  }
+  .content-of-card-blue{
+    margin-top: -2%;
+    margin-right: 5%;
+  }
+  .WrapperTitleCount{
+    margin-top: 5%;
+  }
+  .counts-cont{
+    margin-left: 43%;
+  }
+}
+@media only screen and (max-width: 540px){
+  .cardContainer{
+    width:250px;
+    height: 90px;
+  }
+  .card-zeft{
+    width: 185%;  
+    margin-left: -40%;
+    margin-top: 15%;
+    height:50vh;
+    margin-bottom: 10%;
+  }
+}
+

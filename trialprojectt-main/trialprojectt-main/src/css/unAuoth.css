@@ -1,0 +1,16 @@
+@media (max-width: 1092px) {
+  .nameUnAotho{
+    font-size: 10rem;
+  }
+}
+@media (max-width: 860px) {
+    .nameUnAotho{
+      font-size: 8rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .nameUnAotho{
+      font-size: 5rem;
+    }
+  }
